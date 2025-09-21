@@ -4,8 +4,8 @@ body{
 .main{
     max-width: 1400px;
     min-width: 576px;
-    min-height: 400vh;
-    max-height: 100vh;
+    min-height: 250vh;
+    max-height: 250vh;
     background-color: rgb(128,128,128,0.3);
 }
 .nav{
@@ -262,12 +262,12 @@ p{
 }
 .content{
     position: absolute;
-    top: 450px;
+    top: 750px;
     background-color:rgb(128,128,128,0.5);
     min-width: 100%;
     max-width: 100%;
     min-height: 250vh;
-    max-width: 150vh;
+    max-width: 250vh;
 }
 .content>h1{
     padding-top: 70px;
@@ -290,10 +290,11 @@ p{
 }
 .content4{
     position: absolute;
-    top: 330px;
-    right: 50px;
+    top: 380px;
+    right: 110px;
 }
 .content5{
+    font-weight: 400;
     font-family: poppins;
     font-size: medium;
     color: red;
@@ -309,7 +310,7 @@ p{
     font-weight: 900;
     position: absolute;
     top: 430px;
-    left: 105px;
+    left: 112px;
 
 }
 .content7{
@@ -348,7 +349,7 @@ p{
 }
 .content12{
     position: absolute;
-    top: 620px;
+    top: 600px;
     left: 120px;
     border: 1px solid black;
     width: 160px;
@@ -358,23 +359,187 @@ p{
     padding-right: 35px;
     font-family: butler;
     cursor:pointer;
+    transition: all ease 0.6s;
 }
 .content12:hover{
     background-color: rgba(10, 10, 10,0.999);
     color: white;
 }
-.address{
-    position: absolute;
-    left: 100px;
-    top: 700px;
+.content12:active{
+    scale: 0.9;
 }
 .content13{
-    color: ;
     position: absolute;
-    top: 629px;
+    top: 610px;
     left: 235px;
     border-radius: 10px;
 }
 .content13:hover{
     color: white
+}
+.address{
+    position: absolute;
+    top: 720px;
+    left: 110px;
+}
+.address1{
+    letter-spacing: 0.48em;
+    position: absolute;
+    color: red;
+    top: 740px;
+    right:490px;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: medium;
+}
+.address2{
+    position: absolute;
+    top: 770px;
+    font-family: poppins;
+    font-size: xx-large;
+    font-weight: 900;
+    right: 428px;
+    font-family: poppins;
+    opacity: 0.5;
+}
+.address3{
+    position: absolute;
+    top: 770px;
+    right: 247px;
+    font-family: poppins;
+    font-size: xx-large;
+    font-weight: 300;
+    opacity: 0.5;
+}
+.address4{
+    position: absolute;
+    top: 870px;
+    right: 405px;
+    font-family: poppins;
+    font-size: medium;
+}
+.address5{
+    position: absolute;
+    top: 843px;
+    right: 627px;
+}
+.address6{
+    position: absolute;
+    top: 900px;
+    right: 505px;
+    font-family: poppins;
+    font-size: medium;
+    color: black;
+}
+.address7{
+    position: absolute;
+    top: 875px;
+    right: 630px;
+}
+.address8{
+    border: 1px solid black;
+    width: 160px;
+    height: 45px;
+    border-radius: 30px;
+    background-color: rgb(128,128,128,0.3);
+    padding-right: 35px;
+    font-family: butler;
+    cursor:pointer;
+    position: absolute;
+    top: 940px;
+    right: 470px;
+    transition: all ease 0.5s;
+}
+.address8:hover{
+    background-color: rgba(10, 10, 10,0.9);
+    color: white;
+}
+.address8:active{
+    scale: 0.9;
+}
+.address9{
+    position: absolute;
+    top: 950px;
+    right: 490px;
+}
+.contact{
+    position: absolute;
+    top: 1070px;
+    right: 110px;
+}
+h3>.contact1{
+    font-weight: 400;
+    position:absolute;
+    top: 1090px;
+    left: 110px;
+    font-family: poppins;
+    font-size: medium;
+    letter-spacing: 0.48em;
+    color: red;
+}
+.contact2{
+    position: absolute;
+    top: 1070px;
+    opacity: 0.5;
+    left: 110px;
+    font-size: xx-large;
+    font-family: poppins;
+    font-weight: 300;
+}
+.contact3{
+    font-size: xx-large;
+    font-weight: 900;
+} 
+.contact4{
+    position: absolute;
+    top: 1230px;
+    left: 125px;
+    font-family: poppins;
+    font-size: medium;
+}
+.contact5{
+    position: absolute;
+    top: 1203px;
+    left: 105px;
+}
+.contact6{
+    position: absolute;
+    top: 1260px;
+    left: 125px;
+    font-size: medium;
+    font-family: poppins;
+    color: black;
+}
+.contact7{
+    position: absolute;
+    top: 1235px;
+    left:105px;
+}
+.contact8{
+    position: absolute;
+    top: 1300px;
+    left: 125px;
+    background-color: rgb(128,128,128,0.3);
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 160px;
+    height: 45px;
+    font-family: butler;
+    padding-right: 35px;
+    cursor: pointer;
+    transition: all ease 0.6s;
+}
+.contact8:hover{
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+.contact8:active{
+    scale: 0.9;
+}
+
+.contact9{
+    position: absolute;
+    top: 1310px;
+    left: 240px
 }
